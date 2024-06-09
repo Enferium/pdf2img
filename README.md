@@ -13,10 +13,9 @@ pdf2img is a .NET application that converts PDF pages into image files. It suppo
 
 ## Usage
 
-pdf2img.exe <input.pdf> <output directory> [options]
-
-markdown
-
+  ```
+  pdf2img.exe <input.pdf> <output directory> [options]
+  ```
 
 ### Options
 
@@ -58,4 +57,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License
