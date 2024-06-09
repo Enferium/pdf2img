@@ -1,0 +1,110 @@
+# .gitignore for a .NET project
+
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.vspscc
+*.vssscc
+.vscode/
+
+# VS Code settings
+.vscode/
+
+# Visual Studio working folder settings
+.vs/
+
+# DotNet core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+# Ends up in any of these folders, hence the ** (recurse all directories)
+**/[Dd]ebug/
+**/[Dd]ebugPublic/
+**/[Rr]elease/
+**/[Rr]eleases/
+**/[Ee]xport/
+**/[Pp]ublish*/
+**/[Pp]ackages/
+**/.[Ll]ocalhistory/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# ecryptfs
+.ecryptfs/
+
+# Private directories used by the operating system
+$Recycle.Bin/
+
+# NPM Packages
+node_modules/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains Rider
+.idea/
+
+# Rider DotNetCore build results
+out/
+
+# Rider specific file extensions
+*.sln.iml
+
+# Rider logs
+.idea/libraries/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/.idea/
+.idea/.idea/
+.idea/vcs.xml
+.idea/modules.xml
+
+# Rider gitignore
+.idea/.gitignore
+
+# Rider file-based project format
+*.sln
+*.sln.DotSettings.user
+
+# Rider
+.idea/
+.idea_modules/
+*.ipr
+*.iws
+*.iml
+
+# Mono auto generated files
+mono_crash.*
