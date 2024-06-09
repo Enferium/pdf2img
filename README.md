@@ -41,11 +41,13 @@ markdown
 ### Examples
 
 Convert all pages of a PDF to PNG images at 300 DPI:
+
     ```
     PDFImageConverter.exe "C:\Path\To\Input.pdf" "C:\Path\To\OutputDirectory" --dpi 300
     ```
 
 Convert specific pages (1-3 and 5) of a PDF to JPEG images with high quality:
+
     ```
     PDFImageConverter.exe "C:\Path\To\Input.pdf" "C:\Path\To\OutputDirectory" --format jpeg --quality 100 --pagerange 1-3,5
     ```
