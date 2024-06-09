@@ -1,6 +1,6 @@
-# PDFImageConverter
+# pdf2img
 
-PDFImageConverter is a .NET application that converts PDF pages into image files. It supports multiple output formats, DPI settings, and rendering flags for customized image generation.
+pdf2img is a .NET application that converts PDF pages into image files. It supports multiple output formats, DPI settings, and rendering flags for customized image generation.
 
 ## Features
 
@@ -13,7 +13,7 @@ PDFImageConverter is a .NET application that converts PDF pages into image files
 
 ## Usage
 
-PDFImageConverter.exe <input.pdf> <output directory> [options]
+pdf2img.exe <input.pdf> <output directory> [options]
 
 markdown
 
@@ -43,13 +43,13 @@ markdown
 Convert all pages of a PDF to PNG images at 300 DPI:
 
     ```
-    PDFImageConverter.exe "C:\Path\To\Input.pdf" "C:\Path\To\OutputDirectory" --dpi 300
+    pdf2img.exe "C:\Path\To\Input.pdf" "C:\Path\To\OutputDirectory" --dpi 300
     ```
 
 Convert specific pages (1-3 and 5) of a PDF to JPEG images with high quality:
 
     ```
-    PDFImageConverter.exe "C:\Path\To\Input.pdf" "C:\Path\To\OutputDirectory" --format jpeg --quality 100 --pagerange 1-3,5
+    pdf2img.exe "C:\Path\To\Input.pdf" "C:\Path\To\OutputDirectory" --format jpeg --quality 100 --pagerange 1-3,5
     ```
 
 ## Contributing
